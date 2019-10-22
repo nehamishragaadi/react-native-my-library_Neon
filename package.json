@@ -1,7 +1,8 @@
 {
-  "name": "Example_Neon",
-  "title": "Example_Neon",
+  "name": "Native_Neon",
+  "title": "Native_Neon",
   "version": "1.0.0",
+  "private": false,
   "description": "TODO",
   "main": "index.js",
   "scripts": {
