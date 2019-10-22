@@ -1,6 +1,6 @@
 {
   "name": "react-native-my-library_Neon101",
-  "title": "React Native My Library_Neon101",
+  "title": "react-native-my-library_Neon101",
   "version": "1.0.0",
   "description": "TODO",
   "main": "index.js",
@@ -16,7 +16,7 @@
     "react-native"
   ],
   "author": {
-    "name": "Neha mishra",
+    "name": "Neha Mishra",
     "email": "neha.mishra@gaadi.com"
   },
   "license": "MIT",
@@ -29,5 +29,8 @@
   "devDependencies": {
     "react": "^16.8.3",
     "react-native": "^0.59.10"
+  },
+  "dependencies": {
+    "user": "0.0.0"
   }
 }
