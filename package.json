@@ -1,25 +1,23 @@
 {
-  "name": "Native_Neon",
-  "title": "Native_Neon",
+  "name": "react-native-neon-ios_example",
+  "title": "React Native Neon Ios example",
   "version": "1.0.0",
-  "private": false,
   "description": "TODO",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nehamishragaadi/react-native-my-library_Neon.git",
-    "baseUrl": "https://github.com/nehamishragaadi/react-native-my-library_Neon"
+    "url":   "https://github.com/nehamishragaadi/react-native-my-library_Neon.git"
+
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Neha Mishra",
-    "email": "neha.mishra@gaadi.com"
+    "name": "Neha mishra"
+
   },
+  
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
@@ -30,8 +28,5 @@
   "devDependencies": {
     "react": "^16.8.3",
     "react-native": "^0.59.10"
-  },
-  "dependencies": {
-    "user": "0.0.0"
   }
 }
