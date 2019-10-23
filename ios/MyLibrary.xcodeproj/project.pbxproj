@@ -7,6 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BD3825E88C7B1D3B74C02F9 /* Pods_MyLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC18AB9351344CCD870D83E0 /* Pods_MyLibrary.framework */; };
+		9105AA642360397700634B77 /* ImageTagModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA1B2360397700634B77 /* ImageTagModel.swift */; };
+		9105AA652360397700634B77 /* LivePhotoNextTagListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA1C2360397700634B77 /* LivePhotoNextTagListener.swift */; };
+		9105AA662360397700634B77 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA1D2360397700634B77 /* TOActivityCroppedImageProvider.m */; };
+		9105AA672360397700634B77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA1E2360397700634B77 /* ViewController.swift */; };
+		9105AA682360397700634B77 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA202360397700634B77 /* Serializable.swift */; };
+		9105AA692360397700634B77 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA212360397700634B77 /* PhotosModel.swift */; };
+		9105AA6A2360397700634B77 /* SelectImageTagController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA222360397700634B77 /* SelectImageTagController.swift */; };
+		9105AA6B2360397700634B77 /* SelectImgCameraCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA232360397700634B77 /* SelectImgCameraCollectionViewCell.swift */; };
+		9105AA6C2360397700634B77 /* CameraFacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA242360397700634B77 /* CameraFacing.swift */; };
+		9105AA6D2360397700634B77 /* GetLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA252360397700634B77 /* GetLocation.swift */; };
+		9105AA6E2360397700634B77 /* Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA262360397700634B77 /* Configure.swift */; };
+		9105AA6F2360397700634B77 /* LivePhotosListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA272360397700634B77 /* LivePhotosListener.swift */; };
+		9105AA702360397700634B77 /* FileInfoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA282360397700634B77 /* FileInfoCollection.swift */; };
+		9105AA712360397700634B77 /* NeonImagesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA292360397700634B77 /* NeonImagesHandler.swift */; };
+		9105AA722360397700634B77 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA2A2360397700634B77 /* UIImage+CropRotate.m */; };
+		9105AA732360397700634B77 /* OpalImagePickerRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA2C2360397700634B77 /* OpalImagePickerRootViewController.swift */; };
+		9105AA742360397700634B77 /* Bundle+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA2D2360397700634B77 /* Bundle+Helper.swift */; };
+		9105AA752360397700634B77 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA2E2360397700634B77 /* TOCropViewControllerTransitioning.m */; };
+		9105AA762360397700634B77 /* NeonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA302360397700634B77 /* NeonResponse.swift */; };
+		9105AA772360397700634B77 /* IParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA312360397700634B77 /* IParam.swift */; };
+		9105AA782360397700634B77 /* NeoniosDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA322360397700634B77 /* NeoniosDemo.swift */; };
+		9105AA792360397700634B77 /* INeutralParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA332360397700634B77 /* INeutralParam.swift */; };
+		9105AA7A2360397700634B77 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA352360397700634B77 /* TOCroppedImageAttributes.m */; };
+		9105AA7B2360397700634B77 /* FlashMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA362360397700634B77 /* FlashMode.swift */; };
+		9105AA7C2360397700634B77 /* OpalImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA372360397700634B77 /* OpalImagePickerController.swift */; };
+		9105AA7D2360397700634B77 /* ICameraParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA382360397700634B77 /* ICameraParam.swift */; };
+		9105AA7E2360397700634B77 /* ResponseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA392360397700634B77 /* ResponseCode.swift */; };
+		9105AA7F2360397700634B77 /* SaveImageInGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA3A2360397700634B77 /* SaveImageInGallery.swift */; };
+		9105AA802360397700634B77 /* imgCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA3B2360397700634B77 /* imgCollectionViewCell.swift */; };
+		9105AA812360397700634B77 /* NeutralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA3C2360397700634B77 /* NeutralModel.swift */; };
+		9105AA822360397700634B77 /* CustomParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA412360397700634B77 /* CustomParameters.swift */; };
+		9105AA832360397700634B77 /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA422360397700634B77 /* ShowImageViewController.swift */; };
+		9105AA842360397700634B77 /* OpalImagePickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA432360397700634B77 /* OpalImagePickerConfiguration.swift */; };
+		9105AA852360397700634B77 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA442360397700634B77 /* TOCropScrollView.m */; };
+		9105AA862360397700634B77 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA452360397700634B77 /* TOCropViewController.m */; };
+		9105AA872360397700634B77 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA462360397700634B77 /* CameraViewController.swift */; };
+		9105AA882360397700634B77 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA472360397700634B77 /* CameraModel.swift */; };
+		9105AA892360397700634B77 /* FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA482360397700634B77 /* FileInfo.swift */; };
+		9105AA8A2360397700634B77 /* IGalleryParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA4A2360397700634B77 /* IGalleryParam.swift */; };
+		9105AA8B2360397700634B77 /* GalleryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA4B2360397700634B77 /* GalleryType.swift */; };
+		9105AA8C2360397700634B77 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA4C2360397700634B77 /* UIView+Helper.swift */; };
+		9105AA8D2360397700634B77 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA4D2360397700634B77 /* TOCropView.m */; };
+		9105AA8E2360397700634B77 /* MyImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA4E2360397700634B77 /* MyImageCell.swift */; };
+		9105AA8F2360397700634B77 /* ImagePickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA4F2360397700634B77 /* ImagePickerCollectionViewCell.swift */; };
+		9105AA902360397700634B77 /* CameraOnlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA512360397700634B77 /* CameraOnlyViewController.swift */; };
+		9105AA912360397700634B77 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA522360397700634B77 /* TOCropOverlayView.m */; };
+		9105AA922360397700634B77 /* CameraOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA532360397700634B77 /* CameraOrientation.swift */; };
+		9105AA932360397700634B77 /* UIViewController+OpalImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA542360397700634B77 /* UIViewController+OpalImagePicker.swift */; };
+		9105AA942360397700634B77 /* OnImageCollectionListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA562360397700634B77 /* OnImageCollectionListener.swift */; };
+		9105AA952360397700634B77 /* TimeInterval+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA582360397700634B77 /* TimeInterval+String.swift */; };
+		9105AA962360397700634B77 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA592360397700634B77 /* TOCropToolbar.m */; };
+		9105AA972360397700634B77 /* LibraryMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA5B2360397700634B77 /* LibraryMode.swift */; };
+		9105AA982360397700634B77 /* OpalImagePickerCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA5C2360397700634B77 /* OpalImagePickerCollectionViewLayout.swift */; };
+		9105AA992360397700634B77 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA5D2360397700634B77 /* CropViewController.swift */; };
+		9105AA9A2360397700634B77 /* OpenNeutralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA5E2360397700634B77 /* OpenNeutralViewController.swift */; };
+		9105AA9B2360397700634B77 /* CameraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA5F2360397700634B77 /* CameraType.swift */; };
+		9105AA9C2360397700634B77 /* GalleryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA622360397700634B77 /* GalleryModel.swift */; };
 		B3E7B58A1CC2AC0600A0062D /* MyLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* MyLibrary.m */; };
 /* End PBXBuildFile section */
 
@@ -24,8 +82,84 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libMyLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9105A99023602E0F00634B77 /* MyLibrary-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyLibrary-Bridging-Header.h"; sourceTree = "<group>"; };
+		9105AA1B2360397700634B77 /* ImageTagModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTagModel.swift; sourceTree = "<group>"; };
+		9105AA1C2360397700634B77 /* LivePhotoNextTagListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePhotoNextTagListener.swift; sourceTree = "<group>"; };
+		9105AA1D2360397700634B77 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
+		9105AA1E2360397700634B77 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9105AA1F2360397700634B77 /* TOCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropView.h; sourceTree = "<group>"; };
+		9105AA202360397700634B77 /* Serializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
+		9105AA212360397700634B77 /* PhotosModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
+		9105AA222360397700634B77 /* SelectImageTagController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectImageTagController.swift; sourceTree = "<group>"; };
+		9105AA232360397700634B77 /* SelectImgCameraCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectImgCameraCollectionViewCell.swift; sourceTree = "<group>"; };
+		9105AA242360397700634B77 /* CameraFacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraFacing.swift; sourceTree = "<group>"; };
+		9105AA252360397700634B77 /* GetLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocation.swift; sourceTree = "<group>"; };
+		9105AA262360397700634B77 /* Configure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configure.swift; sourceTree = "<group>"; };
+		9105AA272360397700634B77 /* LivePhotosListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePhotosListener.swift; sourceTree = "<group>"; };
+		9105AA282360397700634B77 /* FileInfoCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileInfoCollection.swift; sourceTree = "<group>"; };
+		9105AA292360397700634B77 /* NeonImagesHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonImagesHandler.swift; sourceTree = "<group>"; };
+		9105AA2A2360397700634B77 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		9105AA2B2360397700634B77 /* TOCropViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewConstants.h; sourceTree = "<group>"; };
+		9105AA2C2360397700634B77 /* OpalImagePickerRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerRootViewController.swift; sourceTree = "<group>"; };
+		9105AA2D2360397700634B77 /* Bundle+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Helper.swift"; sourceTree = "<group>"; };
+		9105AA2E2360397700634B77 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
+		9105AA2F2360397700634B77 /* CropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropViewController.h; sourceTree = "<group>"; };
+		9105AA302360397700634B77 /* NeonResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonResponse.swift; sourceTree = "<group>"; };
+		9105AA312360397700634B77 /* IParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IParam.swift; sourceTree = "<group>"; };
+		9105AA322360397700634B77 /* NeoniosDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoniosDemo.swift; sourceTree = "<group>"; };
+		9105AA332360397700634B77 /* INeutralParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INeutralParam.swift; sourceTree = "<group>"; };
+		9105AA342360397700634B77 /* TOCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropOverlayView.h; sourceTree = "<group>"; };
+		9105AA352360397700634B77 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCroppedImageAttributes.m; sourceTree = "<group>"; };
+		9105AA362360397700634B77 /* FlashMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashMode.swift; sourceTree = "<group>"; };
+		9105AA372360397700634B77 /* OpalImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerController.swift; sourceTree = "<group>"; };
+		9105AA382360397700634B77 /* ICameraParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICameraParam.swift; sourceTree = "<group>"; };
+		9105AA392360397700634B77 /* ResponseCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseCode.swift; sourceTree = "<group>"; };
+		9105AA3A2360397700634B77 /* SaveImageInGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveImageInGallery.swift; sourceTree = "<group>"; };
+		9105AA3B2360397700634B77 /* imgCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imgCollectionViewCell.swift; sourceTree = "<group>"; };
+		9105AA3C2360397700634B77 /* NeutralModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeutralModel.swift; sourceTree = "<group>"; };
+		9105AA3E2360397700634B77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9105AA3F2360397700634B77 /* drop-down-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drop-down-arrow.png"; sourceTree = "<group>"; };
+		9105AA402360397700634B77 /* TOCropToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
+		9105AA412360397700634B77 /* CustomParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomParameters.swift; sourceTree = "<group>"; };
+		9105AA422360397700634B77 /* ShowImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowImageViewController.swift; sourceTree = "<group>"; };
+		9105AA432360397700634B77 /* OpalImagePickerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerConfiguration.swift; sourceTree = "<group>"; };
+		9105AA442360397700634B77 /* TOCropScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropScrollView.m; sourceTree = "<group>"; };
+		9105AA452360397700634B77 /* TOCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewController.m; sourceTree = "<group>"; };
+		9105AA462360397700634B77 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		9105AA472360397700634B77 /* CameraModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		9105AA482360397700634B77 /* FileInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileInfo.swift; sourceTree = "<group>"; };
+		9105AA492360397700634B77 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9105AA4A2360397700634B77 /* IGalleryParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGalleryParam.swift; sourceTree = "<group>"; };
+		9105AA4B2360397700634B77 /* GalleryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryType.swift; sourceTree = "<group>"; };
+		9105AA4C2360397700634B77 /* UIView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
+		9105AA4D2360397700634B77 /* TOCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropView.m; sourceTree = "<group>"; };
+		9105AA4E2360397700634B77 /* MyImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyImageCell.swift; sourceTree = "<group>"; };
+		9105AA4F2360397700634B77 /* ImagePickerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		9105AA502360397700634B77 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
+		9105AA512360397700634B77 /* CameraOnlyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOnlyViewController.swift; sourceTree = "<group>"; };
+		9105AA522360397700634B77 /* TOCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropOverlayView.m; sourceTree = "<group>"; };
+		9105AA532360397700634B77 /* CameraOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOrientation.swift; sourceTree = "<group>"; };
+		9105AA542360397700634B77 /* UIViewController+OpalImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+OpalImagePicker.swift"; sourceTree = "<group>"; };
+		9105AA552360397700634B77 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		9105AA562360397700634B77 /* OnImageCollectionListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnImageCollectionListener.swift; sourceTree = "<group>"; };
+		9105AA572360397700634B77 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		9105AA582360397700634B77 /* TimeInterval+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeInterval+String.swift"; sourceTree = "<group>"; };
+		9105AA592360397700634B77 /* TOCropToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
+		9105AA5A2360397700634B77 /* NeoniosDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeoniosDemo.h; sourceTree = "<group>"; };
+		9105AA5B2360397700634B77 /* LibraryMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryMode.swift; sourceTree = "<group>"; };
+		9105AA5C2360397700634B77 /* OpalImagePickerCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpalImagePickerCollectionViewLayout.swift; sourceTree = "<group>"; };
+		9105AA5D2360397700634B77 /* CropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
+		9105AA5E2360397700634B77 /* OpenNeutralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenNeutralViewController.swift; sourceTree = "<group>"; };
+		9105AA5F2360397700634B77 /* CameraType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraType.swift; sourceTree = "<group>"; };
+		9105AA602360397700634B77 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
+		9105AA612360397700634B77 /* TOCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewController.h; sourceTree = "<group>"; };
+		9105AA622360397700634B77 /* GalleryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryModel.swift; sourceTree = "<group>"; };
+		9105AA632360397700634B77 /* TOCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
+		AA579ED7023063106D954A19 /* Pods-MyLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLibrary.debug.xcconfig"; path = "Target Support Files/Pods-MyLibrary/Pods-MyLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* MyLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLibrary.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* MyLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLibrary.m; sourceTree = "<group>"; };
+		BC18AB9351344CCD870D83E0 /* Pods_MyLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01C77572319107949A599C0 /* Pods-MyLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLibrary.release.xcconfig"; path = "Target Support Files/Pods-MyLibrary/Pods-MyLibrary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD3825E88C7B1D3B74C02F9 /* Pods_MyLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,13 +182,121 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		37616EF7AA3FE05D0F83BC31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC18AB9351344CCD870D83E0 /* Pods_MyLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				9105AA1A2360397700634B77 /* NeoniosDemo */,
 				B3E7B5881CC2AC0600A0062D /* MyLibrary.h */,
 				B3E7B5891CC2AC0600A0062D /* MyLibrary.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				D6DAE1C5E4DE6BADA0ABF2B7 /* Pods */,
+				37616EF7AA3FE05D0F83BC31 /* Frameworks */,
+				9105A99023602E0F00634B77 /* MyLibrary-Bridging-Header.h */,
 			);
+			sourceTree = "<group>";
+		};
+		9105AA1A2360397700634B77 /* NeoniosDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9105AA1B2360397700634B77 /* ImageTagModel.swift */,
+				9105AA1C2360397700634B77 /* LivePhotoNextTagListener.swift */,
+				9105AA1D2360397700634B77 /* TOActivityCroppedImageProvider.m */,
+				9105AA1E2360397700634B77 /* ViewController.swift */,
+				9105AA1F2360397700634B77 /* TOCropView.h */,
+				9105AA202360397700634B77 /* Serializable.swift */,
+				9105AA212360397700634B77 /* PhotosModel.swift */,
+				9105AA222360397700634B77 /* SelectImageTagController.swift */,
+				9105AA232360397700634B77 /* SelectImgCameraCollectionViewCell.swift */,
+				9105AA242360397700634B77 /* CameraFacing.swift */,
+				9105AA252360397700634B77 /* GetLocation.swift */,
+				9105AA262360397700634B77 /* Configure.swift */,
+				9105AA272360397700634B77 /* LivePhotosListener.swift */,
+				9105AA282360397700634B77 /* FileInfoCollection.swift */,
+				9105AA292360397700634B77 /* NeonImagesHandler.swift */,
+				9105AA2A2360397700634B77 /* UIImage+CropRotate.m */,
+				9105AA2B2360397700634B77 /* TOCropViewConstants.h */,
+				9105AA2C2360397700634B77 /* OpalImagePickerRootViewController.swift */,
+				9105AA2D2360397700634B77 /* Bundle+Helper.swift */,
+				9105AA2E2360397700634B77 /* TOCropViewControllerTransitioning.m */,
+				9105AA2F2360397700634B77 /* CropViewController.h */,
+				9105AA302360397700634B77 /* NeonResponse.swift */,
+				9105AA312360397700634B77 /* IParam.swift */,
+				9105AA322360397700634B77 /* NeoniosDemo.swift */,
+				9105AA332360397700634B77 /* INeutralParam.swift */,
+				9105AA342360397700634B77 /* TOCropOverlayView.h */,
+				9105AA352360397700634B77 /* TOCroppedImageAttributes.m */,
+				9105AA362360397700634B77 /* FlashMode.swift */,
+				9105AA372360397700634B77 /* OpalImagePickerController.swift */,
+				9105AA382360397700634B77 /* ICameraParam.swift */,
+				9105AA392360397700634B77 /* ResponseCode.swift */,
+				9105AA3A2360397700634B77 /* SaveImageInGallery.swift */,
+				9105AA3B2360397700634B77 /* imgCollectionViewCell.swift */,
+				9105AA3C2360397700634B77 /* NeutralModel.swift */,
+				9105AA3D2360397700634B77 /* Resources */,
+				9105AA402360397700634B77 /* TOCropToolbar.h */,
+				9105AA412360397700634B77 /* CustomParameters.swift */,
+				9105AA422360397700634B77 /* ShowImageViewController.swift */,
+				9105AA432360397700634B77 /* OpalImagePickerConfiguration.swift */,
+				9105AA442360397700634B77 /* TOCropScrollView.m */,
+				9105AA452360397700634B77 /* TOCropViewController.m */,
+				9105AA462360397700634B77 /* CameraViewController.swift */,
+				9105AA472360397700634B77 /* CameraModel.swift */,
+				9105AA482360397700634B77 /* FileInfo.swift */,
+				9105AA492360397700634B77 /* Main.storyboard */,
+				9105AA4A2360397700634B77 /* IGalleryParam.swift */,
+				9105AA4B2360397700634B77 /* GalleryType.swift */,
+				9105AA4C2360397700634B77 /* UIView+Helper.swift */,
+				9105AA4D2360397700634B77 /* TOCropView.m */,
+				9105AA4E2360397700634B77 /* MyImageCell.swift */,
+				9105AA4F2360397700634B77 /* ImagePickerCollectionViewCell.swift */,
+				9105AA502360397700634B77 /* TOActivityCroppedImageProvider.h */,
+				9105AA512360397700634B77 /* CameraOnlyViewController.swift */,
+				9105AA522360397700634B77 /* TOCropOverlayView.m */,
+				9105AA532360397700634B77 /* CameraOrientation.swift */,
+				9105AA542360397700634B77 /* UIViewController+OpalImagePicker.swift */,
+				9105AA552360397700634B77 /* TOCropViewControllerTransitioning.h */,
+				9105AA562360397700634B77 /* OnImageCollectionListener.swift */,
+				9105AA572360397700634B77 /* UIImage+CropRotate.h */,
+				9105AA582360397700634B77 /* TimeInterval+String.swift */,
+				9105AA592360397700634B77 /* TOCropToolbar.m */,
+				9105AA5A2360397700634B77 /* NeoniosDemo.h */,
+				9105AA5B2360397700634B77 /* LibraryMode.swift */,
+				9105AA5C2360397700634B77 /* OpalImagePickerCollectionViewLayout.swift */,
+				9105AA5D2360397700634B77 /* CropViewController.swift */,
+				9105AA5E2360397700634B77 /* OpenNeutralViewController.swift */,
+				9105AA5F2360397700634B77 /* CameraType.swift */,
+				9105AA602360397700634B77 /* TOCroppedImageAttributes.h */,
+				9105AA612360397700634B77 /* TOCropViewController.h */,
+				9105AA622360397700634B77 /* GalleryModel.swift */,
+				9105AA632360397700634B77 /* TOCropScrollView.h */,
+			);
+			path = NeoniosDemo;
+			sourceTree = "<group>";
+		};
+		9105AA3D2360397700634B77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9105AA3E2360397700634B77 /* Assets.xcassets */,
+				9105AA3F2360397700634B77 /* drop-down-arrow.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D6DAE1C5E4DE6BADA0ABF2B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA579ED7023063106D954A19 /* Pods-MyLibrary.debug.xcconfig */,
+				F01C77572319107949A599C0 /* Pods-MyLibrary.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -63,6 +306,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "MyLibrary" */;
 			buildPhases = (
+				0440F508D7AFD47724753F25 /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -87,6 +331,7 @@
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -95,6 +340,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -107,12 +353,94 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0440F508D7AFD47724753F25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyLibrary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9105AA7A2360397700634B77 /* TOCroppedImageAttributes.m in Sources */,
+				9105AA702360397700634B77 /* FileInfoCollection.swift in Sources */,
+				9105AA912360397700634B77 /* TOCropOverlayView.m in Sources */,
+				9105AA7F2360397700634B77 /* SaveImageInGallery.swift in Sources */,
+				9105AA972360397700634B77 /* LibraryMode.swift in Sources */,
+				9105AA6F2360397700634B77 /* LivePhotosListener.swift in Sources */,
+				9105AA992360397700634B77 /* CropViewController.swift in Sources */,
+				9105AA902360397700634B77 /* CameraOnlyViewController.swift in Sources */,
+				9105AA732360397700634B77 /* OpalImagePickerRootViewController.swift in Sources */,
+				9105AA772360397700634B77 /* IParam.swift in Sources */,
+				9105AA682360397700634B77 /* Serializable.swift in Sources */,
+				9105AA672360397700634B77 /* ViewController.swift in Sources */,
+				9105AA692360397700634B77 /* PhotosModel.swift in Sources */,
+				9105AA652360397700634B77 /* LivePhotoNextTagListener.swift in Sources */,
+				9105AA8A2360397700634B77 /* IGalleryParam.swift in Sources */,
+				9105AA712360397700634B77 /* NeonImagesHandler.swift in Sources */,
+				9105AA742360397700634B77 /* Bundle+Helper.swift in Sources */,
+				9105AA8D2360397700634B77 /* TOCropView.m in Sources */,
+				9105AA962360397700634B77 /* TOCropToolbar.m in Sources */,
+				9105AA782360397700634B77 /* NeoniosDemo.swift in Sources */,
+				9105AA792360397700634B77 /* INeutralParam.swift in Sources */,
+				9105AA852360397700634B77 /* TOCropScrollView.m in Sources */,
+				9105AA8B2360397700634B77 /* GalleryType.swift in Sources */,
+				9105AA642360397700634B77 /* ImageTagModel.swift in Sources */,
+				9105AA842360397700634B77 /* OpalImagePickerConfiguration.swift in Sources */,
+				9105AA832360397700634B77 /* ShowImageViewController.swift in Sources */,
+				9105AA6C2360397700634B77 /* CameraFacing.swift in Sources */,
+				9105AA6B2360397700634B77 /* SelectImgCameraCollectionViewCell.swift in Sources */,
+				9105AA822360397700634B77 /* CustomParameters.swift in Sources */,
+				9105AA9C2360397700634B77 /* GalleryModel.swift in Sources */,
+				9105AA7E2360397700634B77 /* ResponseCode.swift in Sources */,
+				9105AA752360397700634B77 /* TOCropViewControllerTransitioning.m in Sources */,
+				9105AA9B2360397700634B77 /* CameraType.swift in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* MyLibrary.m in Sources */,
+				9105AA6D2360397700634B77 /* GetLocation.swift in Sources */,
+				9105AA882360397700634B77 /* CameraModel.swift in Sources */,
+				9105AA982360397700634B77 /* OpalImagePickerCollectionViewLayout.swift in Sources */,
+				9105AA6A2360397700634B77 /* SelectImageTagController.swift in Sources */,
+				9105AA7C2360397700634B77 /* OpalImagePickerController.swift in Sources */,
+				9105AA922360397700634B77 /* CameraOrientation.swift in Sources */,
+				9105AA8F2360397700634B77 /* ImagePickerCollectionViewCell.swift in Sources */,
+				9105AA892360397700634B77 /* FileInfo.swift in Sources */,
+				9105AA862360397700634B77 /* TOCropViewController.m in Sources */,
+				9105AA942360397700634B77 /* OnImageCollectionListener.swift in Sources */,
+				9105AA932360397700634B77 /* UIViewController+OpalImagePicker.swift in Sources */,
+				9105AA7B2360397700634B77 /* FlashMode.swift in Sources */,
+				9105AA812360397700634B77 /* NeutralModel.swift in Sources */,
+				9105AA952360397700634B77 /* TimeInterval+String.swift in Sources */,
+				9105AA8E2360397700634B77 /* MyImageCell.swift in Sources */,
+				9105AA762360397700634B77 /* NeonResponse.swift in Sources */,
+				9105AA7D2360397700634B77 /* ICameraParam.swift in Sources */,
+				9105AA802360397700634B77 /* imgCollectionViewCell.swift in Sources */,
+				9105AA8C2360397700634B77 /* UIView+Helper.swift in Sources */,
+				9105AA6E2360397700634B77 /* Configure.swift in Sources */,
+				9105AA872360397700634B77 /* CameraViewController.swift in Sources */,
+				9105AA662360397700634B77 /* TOActivityCroppedImageProvider.m in Sources */,
+				9105AA722360397700634B77 /* UIImage+CropRotate.m in Sources */,
+				9105AA9A2360397700634B77 /* OpenNeutralViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +473,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -162,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -195,6 +524,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -205,7 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -214,33 +544,48 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA579ED7023063106D954A19 /* Pods-MyLibrary.debug.xcconfig */;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
-				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = MyLibrary;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		58B511F11A9E6C8500147676 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
+				DEFINES_MODULE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = MyLibrary;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyLibrary-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01C77572319107949A599C0 /* Pods-MyLibrary.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
+				DEFINES_MODULE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MyLibrary;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyLibrary-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

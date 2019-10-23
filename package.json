@@ -4,20 +4,16 @@
   "version": "1.0.0",
   "description": "TODO",
   "main": "index.js",
-
   "repository": {
     "type": "git",
-    "url":   "https://github.com/nehamishragaadi/react-native-my-library_Neon.git"
-
+    "url": "https://github.com/nehamishragaadi/react-native-my-library_Neon.git"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
     "name": "Neha mishra"
-
   },
-  
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
