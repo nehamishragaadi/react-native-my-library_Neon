@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import <TOCropViewController.h>
 #import "TOCropViewConstants.h"
 #import "TOCropView.h"
 #import "TOCropToolbar.h"

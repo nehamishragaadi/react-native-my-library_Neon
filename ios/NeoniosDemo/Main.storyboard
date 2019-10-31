@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MGS-ie-cNv">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MGS-ie-cNv">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +11,7 @@
         <!--Open Neutral View Controller-->
         <scene sceneID="vfX-JJ-n8r">
             <objects>
-                <viewController id="6WM-Jd-I4k" customClass="OpenNeutralViewController" customModule="NeoniOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6WM-Jd-I4k" customClass="OpenNeutralViewController" customModule="DemoNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oCT-SH-DDM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -222,13 +220,13 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="NeoniOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="DemoNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Lo6-Vl-S34">
-                                <rect key="frame" x="10" y="54" width="394" height="70"/>
+                                <rect key="frame" x="10" y="98" width="394" height="70"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDJ-s2-rSS">
                                         <rect key="frame" x="0.0" y="0.0" width="192" height="70"/>
@@ -258,14 +256,14 @@
                                 </constraints>
                             </stackView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5No-PG-NaD">
-                                <rect key="frame" x="20" y="142" width="374" height="720"/>
+                                <rect key="frame" x="20" y="186" width="374" height="676"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <collectionView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jKd-9T-4zO">
-                                <rect key="frame" x="10" y="134" width="394" height="633"/>
+                                <rect key="frame" x="10" y="178" width="394" height="589"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="twE-SO-psE">
                                     <size key="itemSize" width="120" height="152"/>
@@ -274,7 +272,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="8ej-Ed-iI2" customClass="MyImageCell" customModule="NeoniOS" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="8ej-Ed-iI2" customClass="MyImageCell" customModule="DemoNew" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="152"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -377,18 +375,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1779.7101449275365" y="9.375"/>
+            <point key="canvasLocation" x="2689.8550724637685" y="-54.910714285714285"/>
         </scene>
         <!--Show Image View Controller-->
         <scene sceneID="tGL-Mc-ZjN">
             <objects>
-                <viewController storyboardIdentifier="ShowImageViewController" id="Dl5-7J-1hB" customClass="ShowImageViewController" customModule="NeoniOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ShowImageViewController" id="Dl5-7J-1hB" customClass="ShowImageViewController" customModule="DemoNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d5q-J7-dQJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8Gh-hL-uRJ">
-                                <rect key="frame" x="0.0" y="88" width="414" height="656"/>
+                                <rect key="frame" x="0.0" y="132" width="414" height="612"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="DXt-30-4T0">
                                     <size key="itemSize" width="414" height="575"/>
@@ -397,8 +395,8 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="imgCollectionViewCell" id="fxf-bP-1uI" customClass="imgCollectionViewCell" customModule="NeoniOS" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="40.5" width="414" height="575"/>
+                                    <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="imgCollectionViewCell" id="fxf-bP-1uI" customClass="imgCollectionViewCell" customModule="DemoNew" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="18.5" width="414" height="575"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="575"/>
@@ -473,6 +471,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Cxa-0z-3Mm"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Aec-6b-rBd"/>
                     <connections>
                         <outlet property="bottomView" destination="JfM-SW-FAS" id="McW-Po-HyZ"/>
                         <outlet property="imageCollection" destination="8Gh-hL-uRJ" id="8zQ-ph-uhD"/>
@@ -481,12 +480,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SCU-r2-9ib" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2560.8695652173915" y="239.73214285714283"/>
+            <point key="canvasLocation" x="3471.0144927536235" y="239.73214285714283"/>
         </scene>
         <!--Select Image Tag Controller-->
         <scene sceneID="o2R-Hf-vBJ">
             <objects>
-                <viewController storyboardIdentifier="SelectImageTagController" id="lb0-HR-HBm" customClass="SelectImageTagController" customModule="NeoniOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SelectImageTagController" id="lb0-HR-HBm" customClass="SelectImageTagController" customModule="DemoNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pPL-tW-fHo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -503,7 +502,7 @@
                                 </constraints>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UITableViewCell" id="9dA-gg-GXt">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9dA-gg-GXt" id="RdA-Ex-asf">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -532,12 +531,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3hb-9H-3IX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4169.5652173913049" y="237.72321428571428"/>
+            <point key="canvasLocation" x="5079.7101449275369" y="237.72321428571428"/>
         </scene>
         <!--Camera Only View Controller-->
         <scene sceneID="wPx-G0-fT2">
             <objects>
-                <viewController id="A5y-pg-1cO" customClass="CameraOnlyViewController" customModule="NeoniOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="A5y-pg-1cO" customClass="CameraOnlyViewController" customModule="DemoNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ImD-Dz-dfq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -565,7 +564,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SelectImgCameraCell" id="zFK-yQ-hGC" customClass="SelectImgCameraCollectionViewCell" customModule="NeoniOS" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SelectImgCameraCell" id="zFK-yQ-hGC" customClass="SelectImgCameraCollectionViewCell" customModule="DemoNew" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="164" height="159"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -588,7 +587,6 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="lcz-l6-7nw"/>
                                                     </constraints>
-                                                    <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
@@ -667,7 +665,7 @@
         <!--Camera View Controller-->
         <scene sceneID="bWu-gj-KQQ">
             <objects>
-                <viewController storyboardIdentifier="CameraViewController" title="Camera View Controller" id="tO1-D8-G8f" customClass="CameraViewController" customModule="NeoniOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CameraViewController" title="Camera View Controller" id="tO1-D8-G8f" customClass="CameraViewController" customModule="DemoNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LIG-rb-IuX" customClass="Camera">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -835,7 +833,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2841" y="-414"/>
+            <point key="canvasLocation" x="3750.7246376811595" y="-414.50892857142856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qjL-gX-ppV">
@@ -854,6 +852,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gzB-yI-dmU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ken-md-exp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6ap-4a-PNR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2jp-JU-1h6">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="bdv-cp-PNg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ffR-qS-qEr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1779.7101449275365" y="-55.580357142857139"/>
         </scene>
     </scenes>
     <resources>

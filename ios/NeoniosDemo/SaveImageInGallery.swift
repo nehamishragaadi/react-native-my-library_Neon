@@ -8,7 +8,7 @@
 
 import Foundation
 import Photos
-
+import UIKit
 
 class SaveImageInGallery {
     

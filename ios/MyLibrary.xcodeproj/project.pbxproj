@@ -65,6 +65,7 @@
 		9105AA9A2360397700634B77 /* OpenNeutralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA5E2360397700634B77 /* OpenNeutralViewController.swift */; };
 		9105AA9B2360397700634B77 /* CameraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA5F2360397700634B77 /* CameraType.swift */; };
 		9105AA9C2360397700634B77 /* GalleryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105AA622360397700634B77 /* GalleryModel.swift */; };
+		917A8D09236AEFAC0008E4D1 /* DemoSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A8D08236AEFAC0008E4D1 /* DemoSwift.swift */; };
 		B3E7B58A1CC2AC0600A0062D /* MyLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* MyLibrary.m */; };
 /* End PBXBuildFile section */
 
@@ -155,6 +156,7 @@
 		9105AA612360397700634B77 /* TOCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewController.h; sourceTree = "<group>"; };
 		9105AA622360397700634B77 /* GalleryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryModel.swift; sourceTree = "<group>"; };
 		9105AA632360397700634B77 /* TOCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
+		917A8D08236AEFAC0008E4D1 /* DemoSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSwift.swift; sourceTree = "<group>"; };
 		AA579ED7023063106D954A19 /* Pods-MyLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLibrary.debug.xcconfig"; path = "Target Support Files/Pods-MyLibrary/Pods-MyLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* MyLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLibrary.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* MyLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLibrary.m; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				9105AA1A2360397700634B77 /* NeoniosDemo */,
 				B3E7B5881CC2AC0600A0062D /* MyLibrary.h */,
 				B3E7B5891CC2AC0600A0062D /* MyLibrary.m */,
+				917A8D08236AEFAC0008E4D1 /* DemoSwift.swift */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				D6DAE1C5E4DE6BADA0ABF2B7 /* Pods */,
 				37616EF7AA3FE05D0F83BC31 /* Frameworks */,
@@ -413,6 +416,7 @@
 				9105AA6B2360397700634B77 /* SelectImgCameraCollectionViewCell.swift in Sources */,
 				9105AA822360397700634B77 /* CustomParameters.swift in Sources */,
 				9105AA9C2360397700634B77 /* GalleryModel.swift in Sources */,
+				917A8D09236AEFAC0008E4D1 /* DemoSwift.swift in Sources */,
 				9105AA7E2360397700634B77 /* ResponseCode.swift in Sources */,
 				9105AA752360397700634B77 /* TOCropViewControllerTransitioning.m in Sources */,
 				9105AA9B2360397700634B77 /* CameraType.swift in Sources */,

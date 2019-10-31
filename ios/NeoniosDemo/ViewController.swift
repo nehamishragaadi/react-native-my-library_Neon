@@ -17,6 +17,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var tagListView: UITextView!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var submitButton: UIButton!
+    var navigation = UINavigationController()
     
     //Reference Variables
     private var locArr = [CLLocation]()
@@ -153,7 +154,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBAction func cameraButtonAction(_ sender: Any) {
         let viewController = self.storyboard?.instantiateViewController(withIdentifier: "CameraViewController") as! CameraViewController
         viewController.delegate = self
-        self.navigationController?.pushViewController(viewController, animated: true)
+      self.navigationController?.pushViewController(viewController, animated: true)
     }
     
     @IBAction func openGalleryTap(_ sender: Any) {
